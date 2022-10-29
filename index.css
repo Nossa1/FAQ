@@ -1,0 +1,102 @@
+body{
+    height: 1000px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    font-family:  'Kumbh Sans', sans-serif;
+
+}
+.mainContainer{
+    background-color: aqua;
+    width: 900px;
+    height: 450px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 15px;
+    
+}
+.myBox{
+  position: absolute;
+   right: 830px;
+   top: 140px;
+}
+.container{
+    
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    
+  
+}
+.leftContiner{
+   overflow: hidden;
+    display: inline-block;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    float: left;
+    
+  }
+ 
+.myTitle{
+    top: 50px;
+    line-height: 60px;
+}
+summary{
+    cursor: pointer;
+   display: inline;
+    top: 100px;
+    line-height: 40px;
+}
+.questions:hover{
+    color:  hsl(14, 88%, 65%);
+}
+.questions:active{
+    font-weight: 700;
+}
+p{
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 400;
+}
+hr{
+   background-color: rgb(168, 160, 160); 
+   opacity: 0.4;
+   position: absolute;
+   width: 380px;
+   line-height: 20px;
+}
+
+details > summary {
+    list-style: none;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+  .myArrow {
+    position: relative;
+    display: flex;
+    left: 380px;
+    bottom: 20px;
+  }
+
+  .myWoman{
+    position: relative;
+    right: 70px;
+    top: 40px;
+    width: 400px;
+  }
+  .myShadow{
+    position: relative;
+    right: 640px;
+    
+    bottom: 700px;
+  }
